@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(20, 20, 20);
+  padding: 0;
+  margin: 0;
+}
+
+.navbar{
+  color:white;
+  font-family: Roboto;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.action-button{
+  background-color: rgb(49, 49, 49);
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  padding: 11px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-color: rgb(82, 82, 82);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
+  cursor: pointer;
+
+  transition: 0.15s all;
+}
+
+.action-button-blue{
+  background-color: rgb(31, 135, 253);
+  border-color: rgb(119, 151, 255);
+  color: white;
+}
+
+.action-button:hover{
+  opacity: 0.85;
+}
+
+.action-button:active{
+  transform: scale(0.90);
+}
+
+.action-textbox{
+  background-color: rgb(49, 49, 49);
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  padding: 11px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-color: rgb(82, 82, 82);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
+  outline: 0;
+
+  transition: 0.15s all;
+}
+
+.action-textbox:hover{
+  opacity: 0.85;
+}
+
+.action-textbox:focus{
+  opacity: 1;
+  border-color: rgb(31, 135, 253);
+}
+
+.left, .right {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.right{
+  text-align: right;
+}
